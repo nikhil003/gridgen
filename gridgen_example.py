@@ -9,7 +9,7 @@ try:
     from octant.grid import Gridgen
 except ImportError:
     try:
-        from prygridgen.grid import Gridgen
+        from pygridgen.grid import Gridgen
     except ImportError:
         if os.name is 'posix':
             os.system('clear')
